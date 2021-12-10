@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*---Menu----*/
+header{
+    width: 100%;
+    height: 150px;
+    background-color: #1C1C1C;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    text-align: center;
+}
+.menu li{
+    display: inline-block;
+    margin-top: 40px;
+    padding: 0 80px 0 80px;
+    font-size: 24px;
+    color: whitesmoke;
+    font-family: 'Readex Pro', sans-serif;
+}
+#logo{
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+/* Empieza el banner */
+.banner{
+    width: 100%;
+    margin: 0;
+}
+.banner img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+/* Fin del Banner */
+/* Inicio de contacto */
+.contactenos{
+    background-color: #D5DBDB ;
+}
+.titlecontacto{
+    width: 100%;
+    height: auto;
+    background-color: #1C1C1C;
+    margin-top: -4px;
+    padding: 30px 0 30px 0;
+    text-align: center;
+    color: white;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.textoscontacto{
+    width: 90%;
+    height: auto;
+    background-color: #D5DBDB ;
+    margin: 30px auto;
+    border-radius: 40px;
+}
+.textoinicio{
+    font-family: 'Quicksand', sans-serif;
+    text-align: justify;
+    margin: 40px 40px 20px 40px;
+    line-height: 200%;
+    font-size: 18px;
+    padding-bottom: 40px;
+    font-weight: bold;
+}
+/* Termina Contacto */
+/* Empieza Registro */
+.titleregistro{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    margin-top: -28px;
+    padding: 30px 0 30px 0;
+    text-align: center;
+    color: black;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.formregistro{
+    width: 100%;
+    height: 1000px;
+    background-color: black;
+    text-align: center;
+}
+form{
+    background-color: white;
+    max-width: 60%;
+    margin: 50px auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 12px;
+    font-family: 'Readex Pro', sans-serif;
+}
+input{
+    border: 0;
+    outline: none;
+}
+.field{
+    border: solid 1px black;
+    width: 520px;
+    height: 40px;
+    padding: 0 0 0 10px;
+    font-size: 17px;
+}
+.form p{
+    padding: 40px 0 10px 180px;
+    text-align: left;
+}
+.field:focus{
+    border-color: cornflowerblue;
+}
+#boton1{
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px 0 0 0 ;
+}
+.botonenviar{
+    margin: 0 auto;
+    text-align: center;
+    width: 250px;
+    height: 50px;
+    background-color: #1C1C1C;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Footer */
+/* Empieza el Footer */
+footer{
+	background: #D5DBDB ;
+	padding: 60px 0 30px 0;
+	margin: auto;
+	overflow: hidden;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+.contenedor-footer{
+	display: flex;
+	width: 90%;
+	justify-content: space-evenly;
+	margin: auto;
+	padding-bottom: 50px;
+	border-bottom: 1px solid black;
+}
+
+.content-foo{
+	text-align: center;
+}
+
+.content-foo h4{
+	color: black;
+	border-bottom: 3px solid black;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+
+.content-foo p{
+	color: black;
+}
+
+.titulo-final{
+	text-align: center;
+	font-size: 24px;
+	margin: 20px 0 0 0;
+	color: black;
+}
