@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*---Menu----*/
+header{
+    width: 100%;
+    height: 150px;
+    background-color: #1C1C1C;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    text-align: center;
+}
+.menu li{
+    display: inline-block;
+    margin-top: 40px;
+    padding: 0 80px 0 80px;
+    font-size: 24px;
+    color: whitesmoke;
+    font-family: 'Readex Pro', sans-serif;
+}
+#logo{
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+/* Empieza el Banner */
+.container{
+    width: 100%;
+    height: 1100px;
+    background-color: #D5DBDB;
+}
+.bannerlibro{
+    width: 100%;
+    height: auto;
+}
+.bannerlibro img{
+    width: 100%;
+}
+/* Termina el Banner */
+.titulolibro{
+    width: 100%;
+    height: auto;
+}
+.titulolibro h2{
+    margin: 80px 0 30px 80px;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 35px;
+}
+.textoslibro{
+    width: 100%;
+    height: auto;
+}
+.textoslibro p{
+    margin: 0 30px 80px 80px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 200%;
+}
+/* Empieza el registro */
+.contenedorregistro{
+    width: 100%;
+    height: auto;
+    background-color: #1C1C1C;
+    text-align: center;
+}
+.tituloregistro{
+    color: whitesmoke;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.tituloregistro{
+    margin: 30px;
+}
+.formregistro{
+    width: 100%;
+    height: 1000px;
+    background-color: black;
+    text-align: center;
+}
+form{
+    background-color: white;
+    max-width: 60%;
+    margin: 50px auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 12px;
+    font-family: 'Readex Pro', sans-serif;
+}
+input{
+    border: 0;
+    outline: none;
+}
+.field{
+    border: solid 1px black;
+    width: 520px;
+    height: 40px;
+    padding: 0 0 0 10px;
+    font-size: 17px;
+}
+.form p{
+    padding: 40px 0 10px 180px;
+    text-align: left;
+}
+.field:focus{
+    border-color: cornflowerblue;
+}
+.archivos {
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin-left: 180px;
+  }
+  
+  .archivos::before {
+    background-color: #D5DBDB;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    content: 'Seleccionar'; /* testo por defecto */
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  
+  .archivos input[type="file"] {
+    opacity: 0;
+    width: 200px;
+    height: 32px;
+    display: inline-block;
+  }
+.botonenviar{
+    color: whitesmoke;
+    background-color: #1C1C1C;
+    margin-top: 30px;
+}
+.centercontent input{
+    width: 200px;
+    height: 50px;
+    font-family: 'Readex Pro', sans-serif;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+/* Empieza el Footer */
+footer{
+	background: #D5DBDB ;
+	padding: 60px 0 30px 0;
+	margin: auto;
+	overflow: hidden;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+.contenedor-footer{
+	display: flex;
+	width: 90%;
+	justify-content: space-evenly;
+	margin: auto;
+	padding-bottom: 50px;
+	border-bottom: 1px solid black;
+}
+
+.content-foo{
+	text-align: center;
+}
+
+.content-foo h4{
+	color: black;
+	border-bottom: 3px solid black;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+
+.content-foo p{
+	color: black;
+}
+
+.titulo-final{
+	text-align: center;
+	font-size: 24px;
+	margin: 20px 0 0 0;
+	color: black;
+}

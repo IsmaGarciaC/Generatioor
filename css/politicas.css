@@ -1,0 +1,48 @@
+body{
+    background-color: #111111;
+}
+.titulo{
+    width: 90%;
+    height: auto;
+    text-align: center;
+    margin: 100px auto 50px auto;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: whitesmoke;
+}
+.textos{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: whitesmoke;
+}
+.imagenes{
+    width: 90%;
+    height: auto;
+    margin: 50px auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.boton{
+    width: 90%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+.boton a{
+    padding: 20px 40px 20px 40px;
+    background-color: whitesmoke;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 10px;
+    color: black;
+}
+.boton a:hover{
+    font-weight: bold;
+}
